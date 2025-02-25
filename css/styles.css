@@ -1,0 +1,210 @@
+h1, h2, h3, h4, h5, h6, p, ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+  .container {
+	max-width: 1158px; /* B8 */
+	margin: 0 auto; /* Ortalamak için */
+	padding: 0 15px; /* İçeriğin kenarlara yapışmasını önlemek için */
+  }
+body{
+font-family: "Roboto", sans-serif;
+color: #434455;
+background-color: #FFFFFF;
+}
+header{
+background-color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid #ccc; /* B13 */
+  padding: 20px 0;
+}
+.logo-b{
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color:#4D5AE5
+}
+.span-b{
+color: #2e2f42
+}
+.studio-b{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;;
+color:#2E2F42
+}
+nav ul li a:hover,
+nav ul li a:focus{
+color: #404bbf	
+}
+header nav ul li a{
+font-family: Roboto;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;;
+color:#2E2F42
+}
+.adres-b{
+font-style: normal	
+}
+.mail-b{
+	letter-spacing: 0.02em;
+}
+address ul li a:hover,
+address ul li a:focus{
+color: #404bbf	
+}
+header address ul li a{
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 2%;
+color:#434455 
+}
+.section-bir{
+background-color: #2E2F42;
+}
+.baslik-bir{
+font-family: Roboto;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07em;
+letter-spacing: 0.02em;
+text-align: center;
+color:#FFFFFF;
+background-color: #2E2F42;
+}
+.buton-bir{
+font-family: "Roboto",sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.04em;
+color:#FFFFFF;
+background: #4D5AE5;
+cursor: pointer;
+}
+Button:hover,
+Button:focus{
+background-color: #404BBF;
+}
+.section-iki{
+background-color:#FFFFFF;
+}
+.section-iki ul li h3{
+font-family: Roboto;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.section-iki li p{
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.section-uc{
+background-color: #F4F4FD;
+}
+.baslik-iki{
+font-family: Roboto;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11em;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+text-align: center;
+color: #2E2F42;
+}
+.section-uc ul{
+background-color: #FFFFFF;
+}
+.list-uc{
+background-color: #FFFFFF;
+}
+.section-uc ul li h3{
+font-family: "Roboto",sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2E2F42;
+}
+.baslik-uc{
+font-size: 16px;;
+}
+.section-uc ul li p{
+font-family: "Roboto",sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+}
+.section-dort{
+background-color: #FFFFFF;
+}
+.section-dort h2{
+font-family: Roboto;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2E2F42;
+text-transform: capitalize;
+}
+.section-dort ul li h3{
+font-family: Roboto;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.section-dort ul li p{
+font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
+footer{
+background-color: #2E2F42;
+}
+footer a{
+font-family: "Raleway",sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 3%;
+color:#4D5AE5	
+}
+.span-iki{
+color: #F4F4FD
+}
+.parag-f{
+font-family: "Roboto",sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color:#F4F4FD
+}
