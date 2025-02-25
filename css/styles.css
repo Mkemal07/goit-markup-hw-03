@@ -44,7 +44,7 @@ border-bottom: 1px solid #ccc; /* B13 */
   padding: 20px 0;
 }
 .nav-item{
-padding: 24px 0;
+padding: 24px 0 !important;
 }
 .logo-b{
 font-family: "Raleway", sans-serif;
