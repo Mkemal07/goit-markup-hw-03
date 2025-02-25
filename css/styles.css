@@ -41,7 +41,6 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 border-bottom: 1px solid #ccc; /* B13 */
-  padding: 20px 0;
 }
 .logo-b{
 font-family: "Raleway", sans-serif;
@@ -58,7 +57,7 @@ margin-right: 76px;
 	gap: 40px;
   }
 .menu-list-item{
-    padding: 24px 0;
+padding: 24px 0;
 }
   .adres-b .contact-list {
 	display: flex;
