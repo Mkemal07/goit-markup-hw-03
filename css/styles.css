@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
 	display: flex;
 	align-items: center;
   }
+
+  .nav-item{
+	padding: 24px 0
+  }
   
 body{
 font-family: "Roboto", sans-serif;
@@ -149,13 +153,15 @@ padding: 120px 0;
 }
 .visually-hidden {
 	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	border: 0;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
   .features-list {
 	display: flex;
@@ -233,9 +239,28 @@ margin-bottom: 8px;
 text-align: center;
 }
 .baslik-uc{
-font-size: 16px;;
+font-size: 16px;
+font-family: "Roboto",sans-serif;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2E2F42;
+margin-bottom: 8px;
+text-align: center;
 }
 .section-uc ul li p{
+font-family: "Roboto",sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: center;
+color: #434455;
+text-align: center;
+}
+.parag-bir{
 font-family: "Roboto",sans-serif;
 font-weight: 400;
 font-size: 16px;
@@ -270,7 +295,9 @@ margin-bottom: 72px;
 	margin: 0;
   }
   .project-item {
-	width: calc((100% - 72px) / 4);
+	flex: 1;
+    background-color: #ffffff;
+    flex-basis: calc((100% - 72px) / 4);
   }
   .project-info {
 	padding: 32px 16px;
@@ -298,6 +325,7 @@ color: #666
 }
 footer{
 background-color: #2E2F42;
+padding: 100px 0
 }
 footer a{
 font-family: "Raleway",sans-serif;
@@ -305,7 +333,9 @@ font-weight: 700;
 font-size: 18px;
 line-height: 21px;
 letter-spacing: 3%;
-color:#4D5AE5	
+color:#4D5AE5;
+display: inline-block;
+margin-bottom: 16px;	
 }
 .span-iki{
 color: #F4F4FD
