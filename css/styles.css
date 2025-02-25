@@ -58,6 +58,7 @@ ol, ul  {
   .container {
 	width: 1158px;
 	margin: 0 auto;
+	padding: 0 15px;
   }
   
   /* Navigasyon */
@@ -207,7 +208,78 @@ padding: 120px 0;
   .feature-item {
 	width: calc((100% - 72px) / 4);
   }
+  .header{
+    border-bottom: 1px solid #e7e9fc;
+}
+.header-container{
+    display: flex;
+    padding: 0 15px;
+}
+/*
+.header-section > .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}*/
+.menu-nav{
+    display: flex;
+    align-items: center;
+}
+.header-logo{
+    font-family: "Raleway",sans-serif;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+    margin-right: 76px;
+    
+}
+.header_logo_second{
+    color: #2e2f42;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+}
+.menu-list-item{
+    padding: 24px 0;
+}
+.menu-list{
+    display: block;
+    text-decoration: none;
+    color: #2e2f42;
+    font-size:16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+}
+.menu-list:hover, .menu-list:focus{
+    color:#404bbf;
+}
+.contact_information{
+    font-style: normal;
+}
 
+.contact{
+    display: flex;
+    gap: 40px;
+}
+.contact_list{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contact_list:hover, .contact_list:focus{
+    color: #404bbf;
+}
+menu:active{
+    text-decoration: underline;
+    text-decoration-color: #404BBF;
+    color:#404BBF;
+}
 .section-iki ul li h3{
 font-family: Roboto;
 font-weight: 500;
